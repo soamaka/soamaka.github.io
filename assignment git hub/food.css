@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.stay button{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px ;
+    border-radius: 5px;
+}
+.meal button{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.dress button{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.book button{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: blanchedalmond;
+    align-items: center;
+    padding: 2% 6%;
+}
+.nav-link li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px;
+}
+.nav-link li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.nav-link a:hover{
+    color: red;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.meal img{
+    width: 100%;
+    border-radius: 10px;
+}
+.book img{
+    width: 100%;
+    border-radius: 10px;
+}
+.stay img{
+    width: 100%;
+    border-radius: 10px;
+}
+.dress img{
+    width: 100%;
+    border-radius: 10px;
+}
+.services{
+    width: 80%;
+    margin: 5px auto;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+.book{
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+}
+.dress{
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+}
+.meal{
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+}
+.stay{
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+}
